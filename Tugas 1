@@ -1,0 +1,18 @@
+const int led = 13;
+const int saklar = 2;
+int kondisi_saklar = 0;
+
+void setup() {
+  pinMode(led,OUTPUT);
+  pinMode(saklar,INPUT);
+}
+
+void loop() {
+  kondisi_saklar = digitalRead(saklar);
+  if (kondisi_saklar == HIGH) {
+    digitalWrite(led,LOW);
+  }
+  else {
+    digitalWrite(led,HIGH);
+  }
+}
