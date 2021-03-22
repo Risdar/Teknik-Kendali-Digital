@@ -74,5 +74,4 @@ digitalWrite(g,1), delay(300);
 digitalWrite(a,0), digitalWrite(b,0), digitalWrite(c,0);
 digitalWrite(d,0), digitalWrite(e,0), digitalWrite(f,0);
 digitalWrite(g,0), delay(350);
- }
 }
